@@ -9,9 +9,9 @@ int main()
  
   s = n;
  
-  for (row = 1; row <= n; row++)  // Loop to print rows
+  for (row = 0; row <= n; row++)  // Loop to print rows
   {
-    for (c = 1; c < s; c++)  // Loop to print spaces in a row
+    for (c = 0; c < s; c++)  // Loop to print spaces in a row
       printf(" ");
  
     s--;
